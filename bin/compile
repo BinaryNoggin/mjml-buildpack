@@ -8,6 +8,6 @@ echo '==================== INSTALLING MJML ===================='
 
 cd $BUILD_DIR
 
-npm install -g mjml
+/app/.heroku/node/bin/npm install -g mjml
 
 echo "Exit succesfully regardless of logging"
